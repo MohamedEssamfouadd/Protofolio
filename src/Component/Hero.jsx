@@ -1,9 +1,19 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/image.png";
+import profilePic from "../assets/projects/376190238_1065250794483783_497508327521589473_n.jpg";
 import { motion } from "framer-motion"
+import { Typewriter,useTypewriter,Cursor } from 'react-simple-typewriter'
 
 function Hero() {
+  const [text]=useTypewriter({
+    words:["Web Developer","Front-End Developer"],
+    loop:true,
+    typeSpeed:15,
+    deleteSpeed:10,
+    delaySpeed:2000
+  })
   const container = (delay)=>({
 hidden:{x:-100,opacity:0},
 visible:{
@@ -22,14 +32,18 @@ visible:{
         
         
         className="text-6xl font-thin tracking-tight letter-space-2 font">
-          Sujal Saxena
+          Mohamed Essam
         </motion.h1>
         <motion.h1
          variants = {container(0.5)}
         initial = 'hidden'
         animate = "visible"
         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent font ">
-          Full stack developer
+           I'm  a {text}
+           <Cursor
+           cursorColor="pink"
+           cursorBlinking="false"
+           cursorStyle="|"/>
         </motion.h1>
         <motion.p
          variants = {container(1.2)}

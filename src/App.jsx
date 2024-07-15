@@ -3,7 +3,6 @@ import Hero from "./Component/Hero";
 import Navi from "./Component/Navi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from "./Component/Technologies";
-import Experience from "./Component/Experience";
 import Project from "./Component/Project";
 import Contact from "./Component/Contact";
 
@@ -16,7 +15,7 @@ function App() {
           <Hero />
           <About/>
           <Technologies/>
-          <Experience/>
+         
           <Project/>
           <Contact/>
         </div>

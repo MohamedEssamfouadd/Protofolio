@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -6,6 +7,10 @@ import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io5";
+import { FaBootstrap } from "react-icons/fa6";
+import { FaFigma } from "react-icons/fa";
 <FaReact />;
 
 function Technologies() {
@@ -35,6 +40,39 @@ function Technologies() {
         initial={{opacity:0,x:-100}}
         transition={{duration:1.5}}
         className=" mt-5 flex flex-wrap align-items-center justify-center gap-4 ">
+      
+          <motion.div
+            variants={iconVariant(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+           <FaHtml5 className="text-orange-700 shadow-lg" />
+          </motion.div>
+          <motion.div
+            variants={iconVariant(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+            <IoLogoCss3  className="text-blue-600 shadow-lg" />
+          </motion.div>
+          <motion.div
+            variants={iconVariant(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+            <FaBootstrap  className="text-blue-400 shadow-lg" />
+          </motion.div>
+          <motion.div
+            variants={iconVariant(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+            <TbBrandJavascript className="text-yellow-300 shadow-lg" />
+          </motion.div>
           <motion.div
             variants={iconVariant(2.5)}
             initial="initial"
@@ -49,39 +87,7 @@ function Technologies() {
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
-            <TbBrandNextjs />
-          </motion.div>
-          <motion.div
-            variants={iconVariant(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
-          >
-            <SiMongodb className="text-green-500 shadow-lg" />
-          </motion.div>
-          <motion.div
-            variants={iconVariant(4)}
-            initial="initial"
-            animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
-          >
-            <DiRedis className="text-red-700 shadow-lg" />
-          </motion.div>
-          <motion.div
-            variants={iconVariant(2.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
-          >
-            <FaNodeJs className="text-yellow-500 shadow-lg" />
-          </motion.div>
-          <motion.div
-            variants={iconVariant(2.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
-          >
-            <TbBrandJavascript className="text-yellow-300 shadow-lg" />
+            <FaFigma  className="text-green-600 shadow-lg" />
           </motion.div>
         </motion.div>
       </div>

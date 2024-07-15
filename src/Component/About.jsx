@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import AboutPic from "../assets/about.jpg";
+
 import { motion } from 'framer-motion';
 import { ABOUT_TEXT } from "../constants";
 
