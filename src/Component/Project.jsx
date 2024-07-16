@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { PROJECTS } from '../constants';
-// import Blog from '../assets/projects/project1.jpeg';
-// import Ecom from '../assets/projects/project2.jpeg';
-
 import { motion } from 'framer-motion';
-// import { motion } from 'framer-motion';
+import game from "../assets/projects/pieces-of-xo-game-abstract-composition-multiple-x-pieces-against-o-piece-2HTHMTD.jpg"
+import todolist from "../assets/projects/360_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg"
+import LightDark from "../assets/projects/vector-day-night-switch-mobile-600nw-2313361409.webp"
+import Nationalgeographic from "../assets/projects/ng_videobackground_wave_5658d367.jpeg"
+
 
 function Project() {
   return (
@@ -44,28 +45,28 @@ function Project() {
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src='.\src\assets\projects\pieces-of-xo-game-abstract-composition-multiple-x-pieces-against-o-piece-2HTHMTD.jpg' className='w-64 rounded-md' alt='' />
+            <img src={game} className='w-64 rounded-md' alt='' />
           </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src='.\src\assets\projects\360_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg' className='w-64 rounded-md' alt='' />
+            <img src={todolist} className='w-64 rounded-md' alt='' />
           </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src='.\src\assets\projects\vector-day-night-switch-mobile-600nw-2313361409.webp' className='w-64 rounded-md' alt='' />
+            <img src={LightDark} className='w-64 rounded-md' alt='' />
           </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src='.\src\assets\projects\ng_videobackground_wave_5658d367.jpeg' className='w-64 rounded-md' alt='' />
+            <img src={Nationalgeographic} className='w-64 rounded-md' alt='' />
           </motion.div>
         </motion.div>
         <motion.div 
