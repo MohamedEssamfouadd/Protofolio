@@ -11,7 +11,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaFigma } from "react-icons/fa";
-<FaReact />;
+import { SiTypescript } from "react-icons/si";
+
 
 function Technologies() {
   const iconVariant = (duration) => ({
@@ -42,7 +43,7 @@ function Technologies() {
         className=" mt-5 flex flex-wrap align-items-center justify-center gap-4 ">
       
           <motion.div
-            variants={iconVariant(2.5)}
+            variants={iconVariant(1.5)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
@@ -50,7 +51,7 @@ function Technologies() {
            <FaHtml5 className="text-orange-700 shadow-lg" />
           </motion.div>
           <motion.div
-            variants={iconVariant(6)}
+            variants={iconVariant(2)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
@@ -58,7 +59,7 @@ function Technologies() {
             <IoLogoCss3  className="text-blue-600 shadow-lg" />
           </motion.div>
           <motion.div
-            variants={iconVariant(4)}
+            variants={iconVariant(3)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
@@ -66,7 +67,7 @@ function Technologies() {
             <FaBootstrap  className="text-blue-400 shadow-lg" />
           </motion.div>
           <motion.div
-            variants={iconVariant(2.5)}
+            variants={iconVariant(3)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
@@ -74,7 +75,15 @@ function Technologies() {
             <TbBrandJavascript className="text-yellow-300 shadow-lg" />
           </motion.div>
           <motion.div
-            variants={iconVariant(2.5)}
+            variants={iconVariant(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
+           <SiTypescript  className="text-blue-500 shadow-lg" />
+          </motion.div>
+          <motion.div
+            variants={iconVariant(5)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2 p-2"
@@ -82,7 +91,7 @@ function Technologies() {
             <FaReact className="text-cyan-400 shadow-lg" />
           </motion.div>
           <motion.div
-            variants={iconVariant(2.5)}
+            variants={iconVariant(6)}
             initial="initial"
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
