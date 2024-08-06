@@ -47,7 +47,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML","CSS","React","Sass"],
-    link:"https://66966d25588c7d8c6cbd8ea6--transcendent-starship-e0f3dd.netlify.app/"
+    link:"https://66b208c615a642de915f0ace--reliable-lollipop-f07660.netlify.app/"
   },
   {
     title: "National Geographic",
