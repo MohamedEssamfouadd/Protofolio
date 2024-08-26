@@ -8,6 +8,7 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaFigma } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 function Technologies() {
@@ -68,6 +69,14 @@ function Technologies() {
             animate="animate"
             className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
+            <RiTailwindCssFill  className="text-[#3795BD] shadow-lg" />
+          </motion.div>
+          <motion.div
+            variants={iconVariant(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
+          >
             <TbBrandJavascript className="text-yellow-300 shadow-lg" />
           </motion.div>
           <motion.div
@@ -82,7 +91,7 @@ function Technologies() {
             variants={iconVariant(5)}
             initial="initial"
             animate="animate"
-            className="rounded-lg border-4 border-neutral-800 text-8xl p-2 p-2"
+            className="rounded-lg border-4 border-neutral-800 text-8xl p-2"
           >
             <FaReact className="text-cyan-400 shadow-lg" />
           </motion.div>

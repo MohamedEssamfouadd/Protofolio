@@ -6,7 +6,7 @@ import game from "../assets/projects/pieces-of-xo-game-abstract-composition-mult
 import todolist from "../assets/projects/360_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg"
 import LightDark from "../assets/projects/vector-day-night-switch-mobile-600nw-2313361409.webp"
 import Nationalgeographic from "../assets/projects/ng_videobackground_wave_5658d367.jpeg"
-
+import movies from "../assets/projects/move.jpg"
 
 function Project() {
   return (
@@ -40,6 +40,14 @@ function Project() {
           className='img-fluid mx-auto'>
             <img src='https://img.freepik.com/free-vector/online-shopping-concept-landing-page_52683-11721.jpg?w=740&t=st=1719840364~exp=1719840964~hmac=750438fdf738b652315716c34d23fcdaa1d35f9a4be47b021843284a29446e7d' className='w-64 rounded-md' alt='' />
           </motion.div>
+          <motion.div 
+          whileInView={{opacity:1,x:0}}
+          initial={{opacity:0,x:-100}}
+          transition={{duration:1}}
+          
+          className='img-fluid mx-auto'>
+            <img src={movies} className='w-64 rounded-md' alt='' />
+          </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
@@ -47,6 +55,7 @@ function Project() {
           className='img-fluid mx-auto'>
             <img src={game} className='w-64 rounded-md' alt='' />
           </motion.div>
+        
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
