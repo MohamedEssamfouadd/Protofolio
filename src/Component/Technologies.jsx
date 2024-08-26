@@ -1,10 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { FaHtml5 } from "react-icons/fa";
