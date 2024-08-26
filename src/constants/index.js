@@ -14,7 +14,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "Sass", "React", "APi"],
-    link:"https://fast-food-six-omega.vercel.app/"
+    link:"https://fast-fod.vercel.app/"
   },
   {
     title: "Product-List Website",
@@ -23,6 +23,14 @@ export const PROJECTS = [
       "The display and purchase list explains the specifications of the offered product.",
     technologies: ["HTML", "CSS", "React"],
     link:"https://heartfelt-paletas-3a82fc.netlify.app/"
+  },
+  {
+    title: "Move-List",
+    
+    description:
+      "Movies list to watch and save the watched movies in your list.",
+    technologies: ["HTML", "tailwind","Botstrap","TypeScript","React"],
+    link:"https://eloquent-platypus-634991.netlify.app/"
   },
   {
     title: "Game",
