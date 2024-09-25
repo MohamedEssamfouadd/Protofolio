@@ -3,7 +3,7 @@
 
 export const HERO_CONTENT = `I'm a versatile front-end developer with a passion for creating a powerful, easy-to-use web experience,and I've worked with a variety of technologies, including Html, CSS, Js, BootsTrap, Sass, and React. My journey in web development began with a deep curiosity about how things work, and has evolved into a career in which I constantly strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of programming.`;
 
-export const ABOUT_TEXT = `I'm a versatile front-end developer with a passion for creating a powerful, easy-to-use web experience, and I've worked with a variety of technologies, including Html, CSS, Js, BootsTrap, Sass, and React. My journey in web development began with a deep curiosity about how things work, and has evolved into a career in which I constantly strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of programming, I enjoy staying active, love teamwork, exploring new technologies, and contributing to open source projects.`;
+export const ABOUT_TEXT = `I'm a versatile front-end developer with a passion for creating a powerful, easy-to-use web experience, and I've worked with a variety of technologies, including Html, CSS, Js,TS, BootsTrap,TailwindCss, Sass, and ReactJS,Git,Github,Figma. My journey in web development began with a deep curiosity about how things work, and has evolved into a career in which I constantly strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of programming, I enjoy staying active, love teamwork, exploring new technologies, and contributing to open source projects.`;
 
 
 
@@ -14,7 +14,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "Sass", "React", "APi"],
-    link:"https://fast-fod.vercel.app/"
+    link:"https://fast-food-delta.vercel.app/"
   },
   {
     title: "Product-List Website",

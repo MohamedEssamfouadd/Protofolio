@@ -4,7 +4,7 @@ import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
 import game from "../assets/projects/pieces-of-xo-game-abstract-composition-multiple-x-pieces-against-o-piece-2HTHMTD.jpg"
 import todolist from "../assets/projects/360_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg"
-import LightDark from "../assets/projects/vector-day-night-switch-mobile-600nw-2313361409.webp"
+import LightDark from "../assets/projects/vector-day-night-switch-mobile-600nw-2313361409.jpg"
 import Nationalgeographic from "../assets/projects/ng_videobackground_wave_5658d367.jpeg"
 import movies from "../assets/projects/move.jpg"
 
