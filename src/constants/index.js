@@ -14,7 +14,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "Sass", "React", "APi"],
-    link:"https://fast-food-delta.vercel.app/"
+    link:"https://fast-food-u8r2.vercel.app/"
   },
   {
     title: "Product-List Website",
