@@ -45,8 +45,8 @@ export const PROJECTS = [
    
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React"],
-    link:"https://6696680bf619af0e454dcaf5--tranquil-chimera-48a2c8.netlify.app/"
+    technologies: ["HTML", "CSS", "React","mui"],
+    link:"https://jovial-strudel-8bf1ce.netlify.app/"
   },
 
   {
