@@ -38,7 +38,7 @@ export const PROJECTS = [
     description:
       "X and O game Enjoy playing.",
     technologies: ["HTML", "CSS", "React"],
-    link:"https://66966c0fd710f29e54ec2b4d--grand-brioche-918c9b.netlify.app/"
+    link:"https://joyful-dusk-72c599.netlify.app/"
   },
   {
     title: "Todo-List",
