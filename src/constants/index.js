@@ -50,20 +50,28 @@ export const PROJECTS = [
   },
 
   {
+    title: "Vide-Player",
+   
+    description:
+      "A data visualization site using GETMethod that displays details about products and includes a video.",
+    technologies: ["HTML","CSS","mui","ReduxToolkit","ReactJs","Api"],
+    link:"https://videoplayer-psi-two.vercel.app/"
+  },
+  {
+    title: "Image-gallery",
+    description:
+      "A data visualization site using GETMethod that displays details about products and includes a video.",
+    technologies: ["HTML","CSS","sass","ReactJs"],
+    link:"https://precious-shortbread-9715d0.netlify.app/"
+  },
+
+  {
     title: "Light and Dark mode",
    
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML","CSS","React","Sass"],
+    technologies:["HTML","CSS","React","Sass"] ,
     link:"https://66b208c615a642de915f0ace--reliable-lollipop-f07660.netlify.app/"
-  },
-  {
-    title: "National Geographic",
-   
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML","CSS","BootsTrap","JS"],
-    link:"https://precious-tarsier-4cc71e.netlify.app/"
   },
  
 ];

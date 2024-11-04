@@ -5,8 +5,9 @@ import { motion } from 'framer-motion';
 import game from "../assets/projects/pieces-of-xo-game-abstract-composition-multiple-x-pieces-against-o-piece-2HTHMTD.jpg"
 import todolist from "../assets/projects/360_F_110019055_JBbr778hMxpwuwDaFszyQNck5PhBYHli.jpg"
 import LightDark from "../assets/projects/vector-day-night-switch-mobile-600nw-2313361409.jpg"
-import Nationalgeographic from "../assets/projects/ng_videobackground_wave_5658d367.jpeg"
+import video from "../assets/projects/71Qjj5CLk9L.png"
 import movies from "../assets/projects/move.jpg"
+import image from "../assets/projects/1677072926437_image-gallery-hero.png"
 
 function Project() {
   return (
@@ -68,14 +69,21 @@ function Project() {
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src={LightDark} className='w-64 rounded-md' alt='' />
+            <img src={video} className='w-64 rounded-md' alt='' />
           </motion.div>
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:-100}}
           transition={{duration:1}} 
           className='img-fluid mx-auto'>
-            <img src={Nationalgeographic} className='w-64 rounded-md' alt='' />
+            <img src={image} className='w-64 rounded-md' alt='' />
+          </motion.div>
+          <motion.div
+          whileInView={{opacity:1,x:0}}
+          initial={{opacity:0,x:-100}}
+          transition={{duration:1}} 
+          className='img-fluid mx-auto'>
+            <img src={LightDark} className='w-64 rounded-md' alt='' />
           </motion.div>
         </motion.div>
         <motion.div 
