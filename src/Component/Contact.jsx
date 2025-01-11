@@ -32,7 +32,7 @@ function Contact() {
         <motion.button   whileInView={{opacity:1,x:0}}
         initial={{opacity:0,x:100}}
         transition={{duration:1}} className='bg-white text-black px-3 py-2 w-[fit-content] mx-auto rounded-2'>
-          <a onClick={()=>download()} href={cv}download={cv} >Download resume</a>
+          <a onClick={()=>download()} href={cv}download={cv} >Download Resume</a>
         </motion.button>
     </div>
   )

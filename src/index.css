@@ -14,9 +14,11 @@ body{
     overflow-x:hidden !important;
 }
 @media (max-width:645px){
-    html{
-        overflow-x:hidden  !important;
-        
+   
+    body{
+        height:100% !important;
+        width:100% !important;
+        overflow-x:hidden !important;
     }
     .main{
         padding:25px !important; 

@@ -13,16 +13,16 @@ export const PROJECTS = [
    
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "Sass", "React", "APi"],
+    technologies: ["HTML", "Sass", "React", "APi(Strapi)"],
     link:"https://fast-food-u8r2.vercel.app/"
   },
   {
-    title: "Product-List Website",
+    title: "Online Shopping (H&M)",
     
     description:
       "The display and purchase list explains the specifications of the offered product.",
-    technologies: ["HTML", "CSS", "React"],
-    link:"https://heartfelt-paletas-3a82fc.netlify.app/"
+    technologies: ["HTML", "Scss", "React","Api(Firebase)"],
+    link:"https://hm-v9px.vercel.app/"
   },
   {
     title: "Move-List",
@@ -38,7 +38,7 @@ export const PROJECTS = [
     description:
       "X and O game Enjoy playing.",
     technologies: ["HTML", "CSS", "React"],
-    link:"https://joyful-dusk-72c599.netlify.app/"
+    link:"https://prismatic-quokka-2a83fa.netlify.app/"
   },
   {
     title: "Todo-List",
