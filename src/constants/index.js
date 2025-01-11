@@ -13,7 +13,7 @@ export const PROJECTS = [
    
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "Sass", "React", "APi(Strapi)"],
+    technologies: ["HTML", "Sass", "React","ReduxToolkit", "APi(Strapi)"],
     link:"https://fast-food-u8r2.vercel.app/"
   },
   {
